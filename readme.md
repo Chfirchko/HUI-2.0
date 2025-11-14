@@ -6,8 +6,7 @@
 
 ```bash
 cd build
-cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
-make -j12
+rm -rf * && cmake .. && make -j$(nproc) && ./Hui2App
 ```
 
 ## Структура папок

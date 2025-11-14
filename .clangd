@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: 
+    - -std=c++17
+    - -I${workspaceFolder}/include
+    - -I/usr/include/x86_64-linux-gnu/qt6
+    - -I/usr/include/x86_64-linux-gnu/qt6/QtCore
+    - -I/usr/include/x86_64-linux-gnu/qt6/QtSerialPort
+    - -I/usr/include/x86_64-linux-gnu/qt6/QtGui
+    - -I/usr/include/x86_64-linux-gnu/qt6/QtWidgets
+    - -fPIC
+  CompilationDatabase: build

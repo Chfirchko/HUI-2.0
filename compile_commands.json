@@ -1,0 +1,7 @@
+# Перейдите в корень проекта
+cd /home/asswecan/Downloads/hui2
+
+# Создайте build директорию и сгенерируйте compile_commands.json
+mkdir -p build
+cd build
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
